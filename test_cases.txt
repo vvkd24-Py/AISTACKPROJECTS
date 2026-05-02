@@ -1,0 +1,58 @@
+    ```
+    Test Case ID: TC-001
+    Description: Valid email and password
+    Steps:
+    1. Open the login page.
+    2. Input a valid email and password.
+    Expected Result: User is redirected to the dashboard.
+
+    Test Case ID: TC-002
+    Description: Invalid password
+    Steps:
+    1. Open the login page.
+    2. Input a valid email and an invalid password.
+    Expected Result: An error message is displayed.
+
+    Test Case ID: TC-003
+    Description: Invalid email
+    Steps:
+    1. Open the login page.
+    2. Input an invalid email and a valid password.
+    Expected Result: An error message is displayed.
+    
+    Test Case ID: TC-004
+    Description: Empty email and password
+    Steps:
+    1. Open the login page.
+    2. Leave both email and password fields empty.
+    Expected Result: An error message is displayed.
+    
+    Test Case ID: TC-005
+    Description: Check Case Sensitivity in Password
+    Steps:
+    1. Open the login page.
+    2. Input a valid email and password in different case.
+    Expected Result: An error message is displayed.
+    
+    Test Case ID: TC-006
+    Description: Check with leading and trailing spaces in email and password
+    Steps:
+    1. Open the login page.
+    2. Insert valid email and password with leading and trailing spaces 
+    Expected Result: User is redirected to dashboard. (If spaces are trimmed during validation)
+
+    Test Case ID: TC-007
+    Description: Input fields limit
+    Steps:
+    1. Open the login page.
+    2. Insert more characters than the email and password field's limit.
+    Expected Result: The extra characters cannot be inputted / An error message is displayed.
+    
+    Test Case ID: TC-008
+    Description: Check error message dismissal
+    Steps:
+    1. Open the login page. 
+    2. Input an invalid email and a valid password.
+    3. Dismiss the displayed error message.
+    Expected Result: Error message should disappear.
+    ```

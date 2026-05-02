@@ -1,0 +1,11 @@
+langchain_openai
+langchain_classic
+python-dotenv
+openai
+scikit-learn
+langchain
+streamlit
+PyPDF2
+faiss-cpu
+regex
+langchain_community
